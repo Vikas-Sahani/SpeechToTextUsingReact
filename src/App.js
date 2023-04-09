@@ -1,5 +1,11 @@
 // Todo => one clear button & one save button for saving the speech document
 // Todo => side bar menu so that all the saved speech documents can comeup
+
+// instead of "git push origin master" I have written "git push github master" then this cloned repository is went to my github account before I have copied 2 command from StackOverflow:-
+// https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
+// $ git remote set-url origin git@github.com:ppreyer/first_app.git
+// git remote add github git@github.com:ppreyer/first_app.git
+
 import "./App.css";
 import SpeechRecognition, {
   useSpeechRecognition,
